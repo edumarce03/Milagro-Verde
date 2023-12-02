@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Milagro Verde 🌎</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> MilagroVerde
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Conciencia</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">Preguntas</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Bienvenidos a <br> Milagro Verde
+                        </h1>
+                        <p class="home__description">
+                            En Milagro Verde, creemos en la magia de la naturaleza y en la capacidad que todos tenemos para contribuir a un futuro más verde.
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Explorar <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Milagro Verde:  <br> El Corazón de Nuestra Existencia
+                        </h2>
+
+                        <p class="about__description">
+                            "Explora la trascendental importancia del medio ambiente y descubre cómo tu conexión con la 
+                            naturaleza puede marcar la diferencia."
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                El medio ambiente es la fuente vital que sostiene toda forma de vida.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Cada elemento contribuye al equilibrio de nuestro hogar planetario.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                La variedad de especies es fundamental para la salud de la Tierra.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Cada acción humana tiene un impacto directo en la preservación del medio ambiente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== STEPS ====================-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        ¿Cómo puedo cuidar <br> el medio ambiente?
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Reduce, Reutiliza, Recicla</h3>
+                            <p class="steps__card-description">
+                                Adopta un estilo de vida consciente, reduciendo el consumo, reutilizando productos y 
+                                reciclando desechos para minimizar tu huella ambiental.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Consume de Forma Sostenible</h3>
+                            <p class="steps__card-description">
+                                Opta por productos ecoamigables, apoyando prácticas de producción sostenibles y 
+                                reduciendo la demanda de recursos no renovables.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Conexión con la Naturaleza</h3>
+                            <p class="steps__card-description">
+                                Fomenta la apreciación y comprensión del entorno natural, promoviendo actividades al aire libre y 
+                                participando en iniciativas de conservación local para preservar la biodiversidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Sembrando <br> Conciencia Verde
+                </h2>
+
+                <p class="product__description">
+                    El acto aparentemente simple de plantar y cuidar plantas puede ser una poderosa herramienta para contribuir 
+                    al medio ambiente y cultivar conciencia sobre la importancia de la naturaleza en nuestras vidas.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="assets/img/product1.png" alt="" class="product__img">
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="assets/img/product2.png" alt="" class="product__img">
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="assets/img/product3.png" alt="" class="product__img">
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="assets/img/product4.png" alt="" class="product__img">
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="assets/img/product5.png" alt="" class="product__img">
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="assets/img/product6.png" alt="" class="product__img">
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                Algunas preguntas <br> para ti
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Por qué es importante reciclar?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Reciclar reduce la cantidad de residuos, conserva recursos y protege el medio ambiente.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Qué beneficios aporta tener plantas en casa?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Las plantas mejoran la calidad del aire, reducen el estrés y añaden un toque natural y relajante al ambiente.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Por qué es bueno apagar las luces cuando no las estamos usando?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Apagar las luces ahorra energía y ayuda a cuidar nuestro planeta.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Cuál es la razón de tener árboles en la ciudad?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Los árboles nos dan aire fresco y proporcionan un hogar a muchos animalitos.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Cómo podemos cuidar a los animalitos que viven cerca de nosotros?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Podemos no tirar basura en su hogar, darles agua y respetar su espacio.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Por qué es importante plantar flores y plantas en nuestro jardín?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Las flores y plantas hacen que nuestro mundo sea más bonito y nos dan aire fresco para respirar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <p style="text-align: center; margin-top: -45px;"> Medio Ambiente y Desarrollo Sostenible - G1 </p>
+            <p style="text-align: center; margin-bottom: 30px; margin-top: 20px;">&#169; Universidad Privada Antenor Orrego</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
